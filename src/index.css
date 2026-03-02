@@ -79,7 +79,7 @@ body {
   font-size: 50px;
   font-weight: 700;
   background: linear-gradient(90deg, #ffb347, #ffcc33);
-    -webkit-background-clip: text;
+ 
     -webkit-text-fill-color: transparent;
 }
 
@@ -274,7 +274,7 @@ body {
   font-size: 38px;
   margin-bottom: 40px;
   background: linear-gradient(90deg, #ffb347, #ffcc33);
-  -webkit-background-clip: text;
+ 
   -webkit-text-fill-color: transparent;
 }
 
@@ -473,8 +473,6 @@ body {
 
 
 /* ================= PREMIUM FONTS & SETTINGS ================= */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500;600&display=swap');
-
 :root {
   --primary-gold: #c9a050;
   --secondary-gold: #a67c00;
@@ -549,7 +547,7 @@ body {
   font-size: 65px;
   line-height: 1.1;
   background: linear-gradient(90deg, #fff, var(--primary-gold));
-  -webkit-background-clip: text;
+ 
   -webkit-text-fill-color: transparent;
   margin-bottom: 20px;
 }
