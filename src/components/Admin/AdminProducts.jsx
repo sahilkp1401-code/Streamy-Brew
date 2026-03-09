@@ -10,7 +10,7 @@ const AdminProducts = () => {
   const navigate = useNavigate();
   
   // Backend URL check karjo ke barobar che ke nahi
-  const API_URL = "http://localhost:5000/api/product";
+  const API_URL = "https://cafebackend-6gyr.onrender.com/api/product";
 
   useEffect(() => {
     const isAdmin = localStorage.getItem("isAdmin");

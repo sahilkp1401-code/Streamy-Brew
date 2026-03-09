@@ -28,7 +28,7 @@ const AdminDashboard = () => {
 
   const fetchOrders = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/order/all");
+      const res = await axios.get("https://cafebackend-6gyr.onrender.com/api/order/all");
       const data = res.data;
       setOrders(data);
 

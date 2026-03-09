@@ -12,7 +12,7 @@ const Menu = ({ cart, setCart }) => {
 
   const fetchProducts = async () => {
     try {
-      const res = await axios.get("https://cafebackend-cz00.onrender.com/api/product/all");
+      const res = await axios.get("https://cafebackend-6gyr.onrender.com/api/product/all");
       setProducts(res.data);
     } catch (error) {
       console.log("Error fetching products", error);

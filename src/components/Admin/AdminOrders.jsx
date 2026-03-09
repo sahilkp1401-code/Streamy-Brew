@@ -9,7 +9,7 @@ const AdminOrders = () => {
 
   const fetchOrders = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/order/all");
+      const res = await axios.get("https://cafebackend-6gyr.onrender.com/api/order/all");
       setOrders(res.data);
     } catch (error) {
       console.error("Error fetching orders:", error);
