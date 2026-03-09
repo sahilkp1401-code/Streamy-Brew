@@ -10,7 +10,7 @@ const Signup = () => {
   const handleSignup = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:5000/api/auth/register", formData);
+      await axios.post("https://cafebackend-cz00.onrender.com/api/auth/register", formData);
       alert("Account Created! 🚀 Please Login.");
       navigate("/login");
     } catch (err) {
